@@ -1,0 +1,7 @@
+===== Food Order Details =====
+Customer Name     : raushan
+Restaurant Name   : Dominoze
+Food Item         : pizza
+Quantity          : 1
+Delivery Address  : Samastipur
+Delivery Status   : Delivered

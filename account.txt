@@ -1,0 +1,7 @@
+Customer Account Details -
+Account Number      : 101
+Customer Name       : Raushan
+Old Balance         : 12000.0
+Transaction Type    : Deposit
+Transaction Amount  : 600.0
+Updated Balance     : 12600.0

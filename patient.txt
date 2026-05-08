@@ -1,0 +1,8 @@
+Patient Medical Report-
+Patient ID      : 101
+Patient Name    : Raushan
+Patient Age     : 24
+Disease         : fever
+Doctor Name     : sanjay
+Room Number     : 3
+Medical Report  : patient is recovered well

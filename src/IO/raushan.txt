@@ -1,0 +1,2 @@
+Hello Java IO
+This file is inside Eclipse package folder
