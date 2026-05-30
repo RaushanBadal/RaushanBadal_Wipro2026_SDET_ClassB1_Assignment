@@ -1,0 +1,59 @@
+2026-05-22 15:34:05 INFO  Day26_DDT.DDT - ===== TEST EXECUTION STARTED =====
+2026-05-22 15:34:05 INFO  Day26_DDT.DDT - Excel File Opened
+2026-05-22 15:34:06 INFO  Day26_DDT.DDT - Total Rows Found : 6
+2026-05-22 15:34:06 INFO  Day26_DDT.DDT - --------------------------------
+2026-05-22 15:34:06 INFO  Day26_DDT.DDT - Testing User : standard_user
+2026-05-22 15:34:09 INFO  Day26_DDT.DDT - Chrome Browser Launched
+2026-05-22 15:34:09 INFO  Day26_DDT.DDT - Website Opened
+2026-05-22 15:34:10 INFO  Day26_DDT.DDT - Username Entered
+2026-05-22 15:34:10 INFO  Day26_DDT.DDT - Password Entered
+2026-05-22 15:34:10 INFO  Day26_DDT.DDT - Login Button Clicked
+2026-05-22 15:34:13 INFO  Day26_DDT.DDT - TEST PASSED : Login Successful
+2026-05-22 15:34:14 INFO  Day26_DDT.DDT - Browser Closed
+2026-05-22 15:34:14 INFO  Day26_DDT.DDT - --------------------------------
+2026-05-22 15:34:14 INFO  Day26_DDT.DDT - Testing User : locked_out_user
+2026-05-22 15:34:15 INFO  Day26_DDT.DDT - Chrome Browser Launched
+2026-05-22 15:34:16 INFO  Day26_DDT.DDT - Website Opened
+2026-05-22 15:34:17 INFO  Day26_DDT.DDT - Username Entered
+2026-05-22 15:34:17 INFO  Day26_DDT.DDT - Password Entered
+2026-05-22 15:34:17 INFO  Day26_DDT.DDT - Login Button Clicked
+2026-05-22 15:34:20 ERROR Day26_DDT.DDT - TEST FAILED : Login Failed
+2026-05-22 15:34:21 INFO  Day26_DDT.DDT - Browser Closed
+2026-05-22 15:34:21 INFO  Day26_DDT.DDT - --------------------------------
+2026-05-22 15:34:21 INFO  Day26_DDT.DDT - Testing User : problem_user
+2026-05-22 15:34:22 INFO  Day26_DDT.DDT - Chrome Browser Launched
+2026-05-22 15:34:24 INFO  Day26_DDT.DDT - Website Opened
+2026-05-22 15:34:24 INFO  Day26_DDT.DDT - Username Entered
+2026-05-22 15:34:24 INFO  Day26_DDT.DDT - Password Entered
+2026-05-22 15:34:25 INFO  Day26_DDT.DDT - Login Button Clicked
+2026-05-22 15:34:28 INFO  Day26_DDT.DDT - TEST PASSED : Login Successful
+2026-05-22 15:34:28 INFO  Day26_DDT.DDT - Browser Closed
+2026-05-22 15:34:28 INFO  Day26_DDT.DDT - --------------------------------
+2026-05-22 15:34:28 INFO  Day26_DDT.DDT - Testing User : performance_glitch_user
+2026-05-22 15:34:29 INFO  Day26_DDT.DDT - Chrome Browser Launched
+2026-05-22 15:34:30 INFO  Day26_DDT.DDT - Website Opened
+2026-05-22 15:34:31 INFO  Day26_DDT.DDT - Username Entered
+2026-05-22 15:34:31 INFO  Day26_DDT.DDT - Password Entered
+2026-05-22 15:34:36 INFO  Day26_DDT.DDT - Login Button Clicked
+2026-05-22 15:34:39 INFO  Day26_DDT.DDT - TEST PASSED : Login Successful
+2026-05-22 15:34:40 INFO  Day26_DDT.DDT - Browser Closed
+2026-05-22 15:34:40 INFO  Day26_DDT.DDT - --------------------------------
+2026-05-22 15:34:40 INFO  Day26_DDT.DDT - Testing User : error_user
+2026-05-22 15:34:41 INFO  Day26_DDT.DDT - Chrome Browser Launched
+2026-05-22 15:34:42 INFO  Day26_DDT.DDT - Website Opened
+2026-05-22 15:34:42 INFO  Day26_DDT.DDT - Username Entered
+2026-05-22 15:34:43 INFO  Day26_DDT.DDT - Password Entered
+2026-05-22 15:34:43 INFO  Day26_DDT.DDT - Login Button Clicked
+2026-05-22 15:34:46 INFO  Day26_DDT.DDT - TEST PASSED : Login Successful
+2026-05-22 15:34:46 INFO  Day26_DDT.DDT - Browser Closed
+2026-05-22 15:34:46 INFO  Day26_DDT.DDT - --------------------------------
+2026-05-22 15:34:46 INFO  Day26_DDT.DDT - Testing User : visual_user
+2026-05-22 15:34:48 INFO  Day26_DDT.DDT - Chrome Browser Launched
+2026-05-22 15:34:49 INFO  Day26_DDT.DDT - Website Opened
+2026-05-22 15:34:49 INFO  Day26_DDT.DDT - Username Entered
+2026-05-22 15:34:49 INFO  Day26_DDT.DDT - Password Entered
+2026-05-22 15:34:50 INFO  Day26_DDT.DDT - Login Button Clicked
+2026-05-22 15:34:53 INFO  Day26_DDT.DDT - TEST PASSED : Login Successful
+2026-05-22 15:34:53 INFO  Day26_DDT.DDT - Browser Closed
+2026-05-22 15:34:53 INFO  Day26_DDT.DDT - Excel Closed
+2026-05-22 15:34:53 INFO  Day26_DDT.DDT - ===== TEST EXECUTION COMPLETED =====

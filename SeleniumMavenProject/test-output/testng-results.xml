@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-23T18:03:01 IST" name="GridSuite" finished-at="2026-05-23T18:03:47 IST" duration-ms="45252">
+    <groups>
+    </groups>
+    <test started-at="2026-05-23T18:03:01 IST" name="FirefoxTest" finished-at="2026-05-23T18:03:04 IST" duration-ms="2295">
+      <class name="Day27_testcase.GridLoginTest">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Day27_testcase.GridLoginTest@37afeb11]" started-at="2026-05-23T18:03:01 IST" name="loginTest" finished-at="2026-05-23T18:03:04 IST" duration-ms="2199" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: Could not start a new session. Error while creating session with the driver service. Unable to obtain: geckodriver, error Command failed with code: 65, executed: [--browser, firefox, --language-binding, java, --output, json]
+error sending request for url (https://product-details.mozilla.org/1.0/firefox_versions.json)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: driver.version: unknown 
+Host info: host: 'RAUSHAN_BADAL', ip: '192.168.31.251'
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: driver.version: unknown
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:firefoxOptions: {prefs: {remote.active-protocols: 1}}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:firefoxOptions: {prefs: {remote.active-protocols: 1}}}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Error while creating session with the driver service. Unable to obtain: geckodriver, error Command failed with code: 65, executed: [--browser, firefox, --language-binding, java, --output, json]
+error sending request for url (https://product-details.mozilla.org/1.0/firefox_versions.json)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: driver.version: unknown 
+Host info: host: 'RAUSHAN_BADAL', ip: '192.168.31.251'
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: driver.version: unknown
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:firefoxOptions: {prefs: {remote.active-protocols: 1}}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:firefoxOptions: {prefs: {remote.active-protocols: 1}}}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:76)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:284)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:217)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:176)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:172)
+at Day27_testcase.GridLoginTest.loginTest(GridLoginTest.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- Day27_testcase.GridLoginTest -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2026-05-23T18:03:01 IST" name="ChromeTest" finished-at="2026-05-23T18:03:46 IST" duration-ms="44632">
+      <class name="Day27_testcase.GridLoginTest">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Day27_testcase.GridLoginTest@35ef1869]" started-at="2026-05-23T18:03:01 IST" name="loginTest" finished-at="2026-05-23T18:03:46 IST" duration-ms="44546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- Day27_testcase.GridLoginTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2026-05-23T18:03:01 IST" name="EdgeTest" finished-at="2026-05-23T18:03:47 IST" duration-ms="45252">
+      <class name="Day27_testcase.GridLoginTest">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Day27_testcase.GridLoginTest@6d763516]" started-at="2026-05-23T18:03:01 IST" name="loginTest" finished-at="2026-05-23T18:03:47 IST" duration-ms="45179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- Day27_testcase.GridLoginTest -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- GridSuite -->
+</testng-results>
