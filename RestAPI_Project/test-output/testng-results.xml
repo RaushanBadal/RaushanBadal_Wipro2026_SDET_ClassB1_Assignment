@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-26T15:02:06 IST" name="DummyJSON Suite" finished-at="2026-05-26T15:02:37 IST" duration-ms="31336">
+    <groups>
+    </groups>
+    <test started-at="2026-05-26T15:02:06 IST" name="API Testing" finished-at="2026-05-26T15:02:37 IST" duration-ms="31336">
+      <class name="Restapi.SearchUserTest">
+        <test-method signature="searchUser()[pri:0, instance:Restapi.SearchUserTest@5fdcaa40]" started-at="2026-05-26T15:02:20 IST" name="searchUser" finished-at="2026-05-26T15:02:22 IST" duration-ms="2156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUser -->
+      </class> <!-- Restapi.SearchUserTest -->
+      <class name="Restapi.CRUDOperation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Restapi.CRUDOperation@52e6fdee]" started-at="2026-05-26T15:02:05 IST" name="setup" finished-at="2026-05-26T15:02:05 IST" duration-ms="801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:Restapi.CRUDOperation@52e6fdee]" started-at="2026-05-26T15:02:05 IST" name="setupReport" finished-at="2026-05-26T15:02:06 IST" depends-on-methods="Base.BaseTest.setup" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="crudOperations()[pri:0, instance:Restapi.CRUDOperation@52e6fdee]" started-at="2026-05-26T15:02:06 IST" name="crudOperations" finished-at="2026-05-26T15:02:17 IST" duration-ms="11697" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <404>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:139)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:147)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at Restapi.CRUDOperation.crudOperations(CRUDOperation.java:94)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crudOperations -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:Restapi.CRUDOperation@52e6fdee]" started-at="2026-05-26T15:02:37 IST" name="flushReport" finished-at="2026-05-26T15:02:37 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- Restapi.CRUDOperation -->
+      <class name="Restapi.UserCartsTest">
+        <test-method signature="getCarts()[pri:0, instance:Restapi.UserCartsTest@6e20b53a]" started-at="2026-05-26T15:02:30 IST" name="getCarts" finished-at="2026-05-26T15:02:33 IST" duration-ms="2108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCarts -->
+      </class> <!-- Restapi.UserCartsTest -->
+      <class name="Restapi.FilterUserTest">
+        <test-method signature="filterUser()[pri:0, instance:Restapi.FilterUserTest@6dc17b83]" started-at="2026-05-26T15:02:22 IST" name="filterUser" finished-at="2026-05-26T15:02:24 IST" duration-ms="2244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterUser -->
+      </class> <!-- Restapi.FilterUserTest -->
+      <class name="Restapi.UserPostsTest">
+        <test-method signature="getPosts()[pri:0, instance:Restapi.UserPostsTest@8dbdac1]" started-at="2026-05-26T15:02:28 IST" name="getPosts" finished-at="2026-05-26T15:02:30 IST" duration-ms="2065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPosts -->
+      </class> <!-- Restapi.UserPostsTest -->
+      <class name="Restapi.SortUserTest">
+        <test-method signature="sortUsers()[pri:0, instance:Restapi.SortUserTest@5e0826e7]" started-at="2026-05-26T15:02:24 IST" name="sortUsers" finished-at="2026-05-26T15:02:26 IST" duration-ms="2162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortUsers -->
+      </class> <!-- Restapi.SortUserTest -->
+      <class name="Restapi.UserAuthTest">
+        <test-method signature="authTest()[pri:0, instance:Restapi.UserAuthTest@71809907]" started-at="2026-05-26T15:02:33 IST" name="authTest" finished-at="2026-05-26T15:02:37 IST" duration-ms="4350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authTest -->
+      </class> <!-- Restapi.UserAuthTest -->
+      <class name="Restapi.PaginationTest">
+        <test-method signature="paginationUsers()[pri:0, instance:Restapi.PaginationTest@32eff876]" started-at="2026-05-26T15:02:26 IST" name="paginationUsers" finished-at="2026-05-26T15:02:28 IST" duration-ms="2283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paginationUsers -->
+      </class> <!-- Restapi.PaginationTest -->
+      <class name="Restapi.LoginUserTest">
+        <test-method signature="loginUser()[pri:0, instance:Restapi.LoginUserTest@15ff3e9e]" started-at="2026-05-26T15:02:17 IST" name="loginUser" finished-at="2026-05-26T15:02:20 IST" duration-ms="2184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+      </class> <!-- Restapi.LoginUserTest -->
+    </test> <!-- API Testing -->
+  </suite> <!-- DummyJSON Suite -->
+</testng-results>

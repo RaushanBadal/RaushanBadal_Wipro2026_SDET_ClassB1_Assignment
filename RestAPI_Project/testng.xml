@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM
+"https://testng.org/testng-1.0.dtd">
+
+<suite name="DummyJSON Suite">
+
+    <test name="API Testing">
+
+        <classes>
+
+            <class name="Restapi.CRUDOperation"/>
+
+            <class name="Restapi.LoginUserTest"/>
+
+            <class name="Restapi.SearchUserTest"/>
+
+            <class name="Restapi.FilterUserTest"/>
+
+            <class name="Restapi.SortUserTest"/>
+
+            <class name="Restapi.PaginationTest"/>
+
+            <class name="Restapi.UserPostsTest"/>
+
+            <class name="Restapi.UserCartsTest"/>
+            
+            <class name="Restapi.UserAuthTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>

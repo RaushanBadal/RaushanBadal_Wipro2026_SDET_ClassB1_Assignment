@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DummyJSON Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="API Testing(failed)">
+    <classes>
+      <class name="Restapi.CRUDOperation">
+        <methods>
+          <include name="flushReport"/>
+          <include name="crudOperations"/>
+          <include name="setupReport"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Restapi.CRUDOperation -->
+    </classes>
+  </test> <!-- API Testing(failed) -->
+</suite> <!-- Failed suite [DummyJSON Suite] -->
