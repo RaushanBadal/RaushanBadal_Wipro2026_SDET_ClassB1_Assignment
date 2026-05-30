@@ -1,6 +1,0 @@
-Order Details -
-Order ID         : 111
-Product Name     : laptop
-Product Price    : 70000.0
-Customer Name    : Raushan
-Shipping Address : Samastipur,Bihar
